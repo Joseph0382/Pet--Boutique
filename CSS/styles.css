@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #3c184e;
+}
+
+.header {
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: block;
+}
+
+.logo img {
+    width: 30px;
+    display: inline;
+    margin-right:0 5px 0 0 ;
+}
+
+.logo-text {
+    display: inline;
+    margin-left: 15px;
+}
+
+.logo-text h1 {
+    margin: 0 0 5px 0;
+    font-size: 35px;
+    color: #3c184e;
+    display: inline;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    display: block;
+
+}
+
+.hero-section {
+    background: url('/img/banner-topo.jpg') center center;
+    width: 100%;
+    padding: 120px 80px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hero-text {
+    max-width: 1024px;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+    text-align: center;
+
+}
+
+.hero-text h2 {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.cta-button {
+    width: 200px;
+    padding: 10px 25px 10px;
+    margin: 0 auto 0;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-button img {
+    width: 20px;
+    margin-left: 12px;
+}
+
+.cta-button:hover {
+    background: #3c184e;
+}
+
+.services-section {
+    width: 100%;
+    padding: 120px 80px;
+    background: #f9f9f9;
+}
+
+.services-section h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0 auto 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services-list li {
+    margin: 0 0 20px;
+    font-size: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.service-title {
+    font-weight: bold;
+    color: #3c184e;
+    font-family: italic;
+}
+
+.gallery-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.gallery-section img {
+    max-width: 800px;
+    margin: 0 auto 0;
+    border-radius: 5px;
+    box-shadow:  3px 6px 10px 6px #0000005c;
+}
+
+.about-section {
+    background: #3c184e;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.about-section h3 {
+    max-width: 800px;
+    font-size: 40px;
+    margin: 0 auto 50px;   
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+}
+
+.brand-name {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.social-icons {
+    display: block;
+}
+
+
+.social-icon img{
+    margin: 0 20px 0;
+    width: 50px;
+    height: 50px;
+}
+
+.brands-section {
+    padding: 60px 0;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.brands-section h3 {
+    font-size: 36px;
+    color: #3c184e;
+    margin: 0 0 45px;
+    
+}
+
+.brands-grid {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+.style-section {
+    background: #3c184e;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.style-section h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.location-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.location-section h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.location-section p {
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.map-container {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+    border: none;
+    border-radius: 10px;
+}
+
+.footer {
+    width: 100%;
+    background: #3c184e;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-text h2 {
+        font-size: 24px;
+    }
+    
+    .logo-text h1 {
+        font-size: 20px;
+    }
+    
+    .brand-row img {
+        width: 80px;
+        height: 40px;
+        margin: 5px;
+    }
+    
+    .services-section h3,
+    .brands-section h3,
+    .about-section h3,
+    .style-section h3,
+    .location-section h3 {
+        font-size: 22px;
+    }
+}
